@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    padding-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+#reader {
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+}
+h3{
+	text-align: center;
+	font-size: 21px !important;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p{
+	font-style: italic;
+	text-align: center;
+	font-size: 11px;
+    margin-bottom: 10px !important;
+}
+#barcodeDS, #barcodeChiThi{
+	height: 55px;
+}
+button {
+	height: 50px;
+	width: 150px;
+}
+#ket-qua{
+	height: 50px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.header{
+
+}
+.input-group-text{
+	height: 55px;
+    border-radius: 7px 0 0 7px;
+    font-weight: bold;
+}
+.item{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0 10px 0;
+}
+.item p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-style: normal;
+}
+.item button{
+    width: 100px;
+    margin: 0 20px 0 20px;
+}
+.item button.active{
+    background-color: #c1c1c1 !important;
+}
+svg{
+    width: 40px;
+    height: 40px;
+}
+.header div {
+    display: flex;
+}
+.header a {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.link a{
+    margin: 0 10px 0 10px;
+}
